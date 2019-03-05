@@ -20,7 +20,7 @@ function echo(event) {
 
 app.use(bodyParser.json());
 
-app.post('/echo', function (req, res) {
+app.post('/', function (req, res) {
     try{
         var result = echo(req.body.event);
         res.json(result);
