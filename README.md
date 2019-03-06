@@ -1,4 +1,4 @@
-# sample-event-trigger
+# hasura-sample-event-trigger
 
 1. Create table:
 
