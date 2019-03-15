@@ -30,6 +30,10 @@ app.post('/', function (req, res) {
     }
 });
 
+app.get('/', function (req, res) {
+  res.send('Hello World - For Event Triggers, try a POST request?');
+});
+
 var server = app.listen(process.env.PORT, function () {
     console.log("server listening");
 });
